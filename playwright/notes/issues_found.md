@@ -1,0 +1,4 @@
+- Custom builds added via the api are not shown on the play and inventory pages. Either not yet implemented or a bug.
+- Login backend not yet implemented.
+- /inventory: Both Mage weapons are called 'staff'. Possible bug. For tests, weapon selection by name is not possible. Used the bag position
+- Bug: Drag and drop is broken on Webkit browser. Does not work both manually with mouse and via playwright's locator.dragTo(). Skipping the test using drag and drop in inventory.spec.ts
